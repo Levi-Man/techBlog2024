@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Building Secure Authentication Systems",
+    "content": "Explore the best practices and technologies for implementing secure authentication systems. This tech blog series delves into authentication protocols, encryption methods, and tips for safeguarding user accounts."
+   
+  },
+  {
+    "title": "JavaScript Frameworks Comparison",
+    "content": "Dive into the world of JavaScript frameworks with this comprehensive comparison. We'll explore popular frameworks like React, Vue, and Angular, analyzing their strengths, weaknesses, and use cases to help you make informed development choices."
+  
+  },
+  {
+    "title": "Future Trends in Artificial Intelligence",
+    "content": "Uncover the latest trends and breakthroughs in Artificial Intelligence (AI). From machine learning advancements to the ethical considerations of AI, this tech blog series provides insights into the evolving landscape of intelligent systems."
+
+  }
+]

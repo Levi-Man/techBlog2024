@@ -1,0 +1,28 @@
+[
+    {
+      "comment": "Great post! Really enjoyed the insights.",
+      "user_id": 1,
+      "post_id": 2
+    },
+    {
+      "comment": "The comparison of JavaScript frameworks was very helpful. Thanks!",
+      "user_id": 3,
+      "post_id": 2
+    },
+    {
+      "comment": "Looking forward to more articles in the AI trends series!",
+      "user_id": 2,
+      "post_id": 3
+    },
+    {
+      "comment": "This authentication systems blog is a must-read for developers!",
+      "user_id": 1,
+      "post_id": 1
+    },
+    {
+      "comment": "Awesome maze game! Can't wait to try it out.",
+      "user_id": 2,
+      "post_id": 3
+    }
+  ]
+  

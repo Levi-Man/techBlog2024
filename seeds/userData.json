@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Walter White",
+    "email": "walter.white@example.com",
+    "password": "Heisenberg123"
+  },
+  {
+    "name": "Jesse Pinkman",
+    "email": "jesse.pinkman@example.com",
+    "password": "YeahScience123"
+  },
+  {
+    "name": "Saul Goodman",
+    "email": "saul.goodman@example.com",
+    "password": "BetterCallSaul456"
+  }
+]
