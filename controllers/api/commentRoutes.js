@@ -4,9 +4,12 @@ const withAuth = require('../../utils/auth');
 
 router.post('/', withAuth, async (req, res) => {
     try {
+        const { comment } = req.body;
+
         const newComment = await Comment.create({
-            ...req.body,
+            comment: comment,
             user_id: req.session.user_id,
+            post_id: req.session.post_id
         });
         res.status(200).json(newComment);
     } catch (err) {
@@ -14,7 +17,7 @@ router.post('/', withAuth, async (req, res) => {
     }
 });
 
-router.delete('/:id', withAuth, async(req,res) => {
+router.delete('/:id', withAuth, async (req, res) => {
     try {
         const commentData = await Comment.destroy({
             where: {
@@ -23,12 +26,12 @@ router.delete('/:id', withAuth, async(req,res) => {
             },
         })
 
-        if(!commentData) {
+        if (!commentData) {
             res.status(400).json({ message: 'No comment found with this id!' });
             return;
-        }    
+        }
         res.status(200).json(commentData);
-    } catch(err) {
+    } catch (err) {
         res.status(500).json(err);
     }
 
