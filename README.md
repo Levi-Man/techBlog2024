@@ -36,9 +36,14 @@ testing to be developed
 ## Questions
 For any questions or suggestions, please reach me at github.com/Levi-Man or at indra.levi.manahan@gmail.com.
 
-Screenshots: 
+Screenshots 1
+
 <img src="../Assets/techBlog_01.png" alt="Screenshot of application">
 
+Screenshot 2
+
 <img src="../Assets/techBlog_02.png" alt="Screenshot of application">
+
+Screenshot 3
 
 <img src="../Assets/techBlog_03.png" alt="Screenshot of application">
